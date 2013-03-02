@@ -11,4 +11,4 @@ SkipList
 
 所有操作均从上向下逐层查找，越上层一次next操作跨度越大。其实现是典型的空间换时间。
 
-具体的细节，可参考维基百科[http://en.wikipedia.org/wiki/](http://en.wikipedia.org/wiki/)
+具体的细节，可参考维基百科[http://en.wikipedia.org/wiki/Skiplist](http://en.wikipedia.org/wiki/Skiplist)
