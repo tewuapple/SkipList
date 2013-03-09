@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Skiplist : 跳表：一种数据结构，简单，插入、删除、查找的复杂度均为O(logN)。" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Skiplist</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tewuapple/SkipList">View on GitHub</a>
+
+          <h1 id="project_title">Skiplist</h1>
+          <h2 id="project_tagline">跳表：一种数据结构，简单，插入、删除、查找的复杂度均为O(logN)。</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tewuapple/SkipList/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tewuapple/SkipList/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>SkipList</h1>
+
+<blockquote>
+<p>Skip lists are a data structure that can be used in place of balanced trees. Skip lists use probabilistic balancing rather than strictly enforced balancing and as a result the algorithms for insertion and deletion in skip lists are much simpler and significantly faster than equivalent algorithms for balanced trees.</p>
+</blockquote>
+
+<p>跳表（skiplist）是一个非常优秀的数据结构，实现简单，插入、删除、查找的复杂度均为O(logN)。LevelDB的核心数据结构是用跳表实现的，redis的sorted set数据结构也是有跳表实现的。</p>
+
+<p>其结构如下所示：</p>
+
+<p><img src="http://h.hiphotos.baidu.com/album/whcrop%3D470%2C110%3Bq%3D90/sign=8a9e871b3bf33a879e385658a92c2d0c/9c16fdfaaf51f3deeb28bd4f95eef01f3a297906.jpg" alt=""></p>
+
+<p>所有操作均从上向下逐层查找，越上层一次next操作跨度越大。其实现是典型的空间换时间。</p>
+
+<p>具体的细节，可参考维基百科<a href="http://en.wikipedia.org/wiki/Skiplist">http://en.wikipedia.org/wiki/Skiplist</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Skiplist maintained by <a href="https://github.com/tewuapple">tewuapple</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
