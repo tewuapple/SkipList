@@ -7,7 +7,7 @@ SkipList
 
 其结构如下所示：
 
-![](http://h.hiphotos.baidu.com/album/whcrop%3D470%2C110%3Bq%3D90/sign=8a9e871b3bf33a879e385658a92c2d0c/9c16fdfaaf51f3deeb28bd4f95eef01f3a297906.jpg)
+![](/images/github/SkipList.jpg)
 
 所有操作均从上向下逐层查找，越上层一次next操作跨度越大。其实现是典型的空间换时间。
 
