@@ -12,3 +12,14 @@ SkipList
 所有操作均从上向下逐层查找，越上层一次next操作跨度越大。其实现是典型的空间换时间。
 
 具体的细节，可参考维基百科[http://en.wikipedia.org/wiki/Skiplist](http://en.wikipedia.org/wiki/Skiplist)
+
+Licenses
+--------
+- LCSDiff is licensed under the terms of the Apache 2.0 License. The license can be found at
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Donate:
+--------
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NVTPEJBETH7NL"><img src="http://images.cnblogs.com/cnblogs_com/tewuapple/472134/o_o_donate-with-paypal.png" border="0" alt=""></a>
+ <a href='http://me.alipay.com/tewuapple'> <img src='http://images.cnblogs.com/cnblogs_com/tewuapple/472134/o_o_donate-with-alipay.png' /> </a>
+
