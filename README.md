@@ -15,7 +15,7 @@ SkipList
 
 Licenses
 --------
-- LCSDiff is licensed under the terms of the Apache 2.0 License. The license can be found at
+- SkipList is licensed under the terms of the Apache 2.0 License. The license can be found at
   http://www.apache.org/licenses/LICENSE-2.0
 
 Donate:
